@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/Logo_with_name.svg?raw=true)
+![alt text](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/Logo_with_name.svg?raw=true)
 # Modular Deep Learning project organizer
 
 
@@ -8,8 +8,8 @@
 
 |           |          |
 | :-------- | :------- |
-| Package   | [![Static Badge](https://img.shields.io/badge/GitHub_Version-0.2.2-purple)](https://github.com/Ciapser/NeuroUtils) [![Static Badge](https://img.shields.io/badge/PyPi%20Version-0.2.1-blue)](https://pypi.org/project/NeuroUtils/)|
-| Info      | [![Static Badge](https://img.shields.io/badge/License-Apache%202.0-green)](https://github.com/Ciapser/NeuroUtils/blob/main/LICENSE.txt)|
+| Package   | [![Static Badge](https://img.shields.io/badge/GitHub_Version-0.2.2-purple)](https://github.com/Se-Boruk/NeuroUtils) [![Static Badge](https://img.shields.io/badge/PyPi%20Version-0.2.1-blue)](https://pypi.org/project/NeuroUtils/)|
+| Info      | [![Static Badge](https://img.shields.io/badge/License-Apache%202.0-green)](https://github.com/Se-Boruk/NeuroUtils/blob/main/LICENSE.txt)|
 
 
 
@@ -27,10 +27,10 @@ General idea behind the project is to reduce data processing time and to manage 
 **You just need to change the model as you wish, and NeuroUtils will save, and take care of it.**
 
 - When all steps are finished progress is saved and its possible to experiment with another parameters. All steps are modular and you can inspect data, model and then renew the process.
-![alt text](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/FlowChart_reduced_size.png?raw=true)
+![alt text](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/FlowChart_reduced_size.png?raw=true)
 
 - Library is checking if in current run, any identical steps have been performed in the past. If so, they are skipped, to save time and moves to the next step, as shown at the **Workflow chart** below.
-![alt text](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/Workflow.jpg?raw=true)
+![alt text](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/Workflow.jpg?raw=true)
 
 
 ## Instalation
@@ -41,11 +41,11 @@ pip install NeuroUtils
 ```
 Or if you want to use not officially released version, with newest features (can be bugged)
 ```
-pip install https://github.com/Ciapser/NeuroUtils
+pip install https://github.com/Se-Boruk/NeuroUtils
 ```
 or if not working
 ```
-pip install git+https://github.com/Ciapser/NeuroUtils
+pip install git+https://github.com/Se-Boruk/NeuroUtils
 ```
 ## Use
 To start using library you need to create the script in chosen folder, and run it. Necessary folders will be created automatically. 
@@ -149,21 +149,21 @@ Performing high detail analysis of all models trained
 Core.Utils.Models_analysis(show_plots = False, save_plots = True)
 ```  
 ## Results
-- **F scores analysis plots** [![Static Badge](https://img.shields.io/badge/Full_HD-F_scores_analysis-green)](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/F_scores.png)
+- **F scores analysis plots** [![Static Badge](https://img.shields.io/badge/Full_HD-F_scores_analysis-green)](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/F_scores.png)
 
-![alt text](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/F_scores_reduced_size.png?raw=true)
+![alt text](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/F_scores_reduced_size.png?raw=true)
 
-- **Train_history** [![Static Badge](https://img.shields.io/badge/Full_HD-Train_History-green)](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/Train_history.png)
+- **Train_history** [![Static Badge](https://img.shields.io/badge/Full_HD-Train_History-green)](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/Train_history.png)
 
-![alt text](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/Train_history_reduced_size.png?raw=true)
+![alt text](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/Train_history_reduced_size.png?raw=true)
 
-- **Confusion matrix** [![Static Badge](https://img.shields.io/badge/Full_HD-Conf_Matrix-green)](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/Confusion_matrix.png)
+- **Confusion matrix** [![Static Badge](https://img.shields.io/badge/Full_HD-Conf_Matrix-green)](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/Confusion_matrix.png)
 
-![alt text](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/Confusion_matrix_reduced_size.png?raw=true)
+![alt text](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/Confusion_matrix_reduced_size.png?raw=true)
 
-- **Model PDF report** [![Static Badge](https://img.shields.io/badge/Full_HD-PDF_Report-green)](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/Model_preview.png)
+- **Model PDF report** [![Static Badge](https://img.shields.io/badge/Full_HD-PDF_Report-green)](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/Model_preview.png)
 
-![alt text](https://github.com/Ciapser/NeuroUtils/blob/main/ReadMe_files/Model_preview_reduced_size.png?raw=true)
+![alt text](https://github.com/Se-Boruk/NeuroUtils/blob/main/ReadMe_files/Model_preview_reduced_size.png?raw=true)
 
 ## **And more not shown on the images**:
 - Analysis over train,
